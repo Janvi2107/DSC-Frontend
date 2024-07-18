@@ -1,0 +1,32 @@
+.main{
+  width: 100%;
+  background-color: #333; /* Adjust background color to your preference */
+  color: #fff; /* Adjust text color to your preference */
+  padding: 10px; /* Add some padding for better readability */
+  display: flex; /* Use flexbox for easy alignment */
+  justify-content: space-between; /* Space title and list evenly */
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  
+}
+
+.nav{
+  width: 100%;
+}
+
+.nav-list {
+  margin-top: 0px;
+  padding: 10px; 
+  list-style: none; /* Remove default list bullets */
+  /* Remove default padding */
+  /*margin: 0; /* Remove default margin */
+  display: flex; /* Ensure horizontal alignment within the list */
+  justify-content: space-between; 
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  
+}
+li{
+  color: bisque;
+}

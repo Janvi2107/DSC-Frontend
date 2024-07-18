@@ -1,0 +1,58 @@
+/* .forms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensures the form spans the full width of its container */
+    /* max-width: 80%; /* Sets the maximum width to 75% of the viewport */
+    /*margin: 0 auto; Centers the form horizontally within its container
+  }  */
+  */
+
+ 
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group,
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

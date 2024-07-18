@@ -1,0 +1,81 @@
+.invoice {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 700px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border */
+  }
+  
+  /* Invoice header */
+  .invoice-header {
+    display: flex; /* Two-column layout */
+    justify-content: space-between; /* Columns spaced evenly */
+    margin-bottom: 20px; /* Spacing after header */
+  }
+  
+  .invoice h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .company-info {
+    text-align: right;
+  }
+  
+  /* Invoice body */
+  .invoice-body {
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap if needed */
+  }
+  
+  /* Invoice details and customer details */
+  .invoice-details,
+  .customer-details {
+    width: 45%; /* Adjust column widths as needed */
+    margin-bottom: 15px;
+  }
+  
+  .invoice-details p,
+  .customer-details p {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Invoice table */
+  table {
+    width: 800%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  /* Table header (optional for styling) */
+  th {
+    font-weight: bold;
+  }
+  
+  /* Total section */
+  .total {
+    margin-top: 20px;
+  }
+  
+  .total p {
+    margin-bottom: 5px;
+  }
+  
+  /* Signature section */
+  .signature {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signature p {
+    margin-bottom: 5px;
+  }
